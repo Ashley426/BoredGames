@@ -5,6 +5,21 @@ jokebtn.addEventListener('click', generateJoke)
 
 generateJoke()
 
+// function generateJoke(){
+//     const config = {
+//         headers:{
+//             'Accept': 'application/json'
+//         }
+//     }
+//     const res = fetch ('https://icanhazdadjoke.com',
+//     config)
+
+//     const data = await res.json()
+
+//     jokeEl.innerHTML = data.joke
+
+//     }
+
 function generateJoke(){
 const config = {
     headers:{
