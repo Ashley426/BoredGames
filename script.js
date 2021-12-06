@@ -3,6 +3,9 @@ const jokebtn = document.getElementById('jokebtn')
 
 jokebtn.addEventListener('click', generateJoke)
 
+// savebtn.addEventListener('click', saveJoke)
+
+// saveJoke()
 generateJoke()
 
 // function generateJoke(){
@@ -33,3 +36,17 @@ const config = {
         jokeEl.innerHTML = data.joke
     })
 }
+
+// function generateJoke(){
+//     const config = {
+//         headers:{
+//             'Accept': 'application/json'
+//         }
+//     }
+    
+//         fetch('https://icanhazdadjoke.com/', config)
+//         .then(res => res.json())
+//         .then((data) => {
+            
+//         })
+//     }
